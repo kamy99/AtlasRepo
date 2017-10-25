@@ -33,12 +33,12 @@ $("#flights-tab #checkout").on('focus', function(){
 
 
 $("#txtDepCity1").on('blur' , function(){
-  //  $("#txtDepCity2").val( $(this).val() );
+   $("#txtArrCity2").val( $(this).val() );
 //    $("#txtArrCity3").val( $(this).val() );
 });
 
 $("#txtArrCity1").on('blur' , function(){
-  //  $("#txtArrCity2").val( $(this).val() );
+   $("#txtDepCity2").val( $(this).val() );
 //    $("#txtDepCity3").val( $(this).val() );
 
 

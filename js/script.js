@@ -4,12 +4,12 @@
         jQuery().datepicker && (jQuery(".checkin, .checkin2, .checkin3").datepicker({
             showAnim: "drop",
             dateFormat: "mm/dd/yy",
-            numberOfMonths: 2,
+            numberOfMonths: 1,
             minDate: "-0D"
         }), jQuery(".checkout").datepicker({
             showAnim: "drop",
             dateFormat: "mm/dd/yy",
-            numberOfMonths: 2,
+            numberOfMonths: 1,
             minDate: "-0D",
             beforeShow: function() {
                 var e = jQuery(".checkin, .checkin2, .checkin3").datepicker("getDate");
@@ -25,12 +25,12 @@
         jQuery().datepicker && (jQuery(".hotels-checkin").datepicker({
             showAnim: "drop",
             dateFormat: "mm/dd/yy",
-            numberOfMonths: 2,
+            numberOfMonths: 1,
             minDate: "-0D"
         }), jQuery(".hotels-checkout").datepicker({
             showAnim: "drop",
             dateFormat: "mm/dd/yy",
-            numberOfMonths: 2,
+            numberOfMonths: 1,
             minDate: "-0D",
             beforeShow: function() {
                 var e = jQuery(".hotels-checkin").datepicker("getDate");
@@ -48,12 +48,12 @@
         jQuery().datepicker && (jQuery(".cars-checkin").datepicker({
             showAnim: "drop",
             dateFormat: "mm/dd/yy",
-            numberOfMonths: 2,
+            numberOfMonths: 1,
             minDate: "-0D"
         }), jQuery(".cars-checkout").datepicker({
             showAnim: "drop",
             dateFormat: "mm/dd/yy",
-            numberOfMonths: 2,
+            numberOfMonths: 1,
             minDate: "-0D",
             beforeShow: function() {
                 var e = jQuery(".cars-checkin").datepicker("getDate");
@@ -73,7 +73,7 @@ for (multiCity = 0; multiCity < 7; multiCity++) {
         jQuery().datepicker && (jQuery(".DepartureDate"+multiCity).datepicker({
             showAnim: "drop",
             dateFormat: "mm/dd/yy",
-            numberOfMonths: 2,
+            numberOfMonths: 1,
             minDate: "-0D"
         }), jQuery(".DepartureDate"+multiCity).on("focus", function() {
             jQuery(this).blur()
@@ -87,12 +87,12 @@ for (multiCity = 0; multiCity < 7; multiCity++) {
         jQuery().datepicker && (jQuery(".package-checkin").datepicker({
             showAnim: "drop",
             dateFormat: "mm/dd/yy",
-            numberOfMonths: 2,
+            numberOfMonths: 1,
             minDate: "-0D"
         }), jQuery(".package-checkout").datepicker({
             showAnim: "drop",
             dateFormat: "mm/dd/yy",
-            numberOfMonths: 2,
+            numberOfMonths: 1,
             minDate: "-0D",
             beforeShow: function() {
                 var e = jQuery(".package-checkin").datepicker("getDate");
