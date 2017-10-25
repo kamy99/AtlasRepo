@@ -1,0 +1,14 @@
+﻿				<div class="item">
+					<a href="<%# DataBinder.Eval(Container.DataItem, "URL") %>" target="_top">
+					<div class="details-1">
+						<p><%#DataBinder.Eval(Container.DataItem, "Desc")%></p>
+						<p><small><%#DataBinder.Eval(Container.DataItem, "Dates")%></small></p>
+					</div>
+					<div class="details-2">
+						<p><em><%#DataBinder.Eval(Container.DataItem, "BasePrice")%></em></p>
+
+						<p><small>+$<%#DataBinder.Eval(Container.DataItem, "Tax")%> tax</small></p>
+						<p><small><%#DataBinder.Eval(Container.DataItem, "Rating")%> <img src="bright_yellow_star.png" alt="" /></small></p>
+					</div>
+					</a>
+				</div><!-- Test -->

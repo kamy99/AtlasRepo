@@ -1,0 +1,2 @@
+# URL redirect for new form file
+Redirect 301 /credit-card-form.pdf http://www.atlas.travel/assets/contents/credit-card-form.pdf

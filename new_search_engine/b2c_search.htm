@@ -1,0 +1,77 @@
+
+
+
+<form name="frmAirSearch" method="post" action="https://res.perfectibe.com/process.aspx" enctype="multipart/form-data" onSubmit="return true;">
+  <input type="hidden" id="AgentID" name="AgentID" value="258"/>
+  <table class="boxSearch">
+
+    <tr>
+      <td><div id="pnlFlight1">
+          <table>
+            
+            <tr>
+
+            <tr>
+              <td><input name="chkDepCityRadius1" type="checkbox" id="chkDepCityRadius1" value="true">
+                <label for="chkDepCityRadius1">80 miles radius search</label>
+                &nbsp;</td>
+              <td><input name="chkArrCityRadius1" type="checkbox" id="chkArrCityRadius1" value="true">
+                <label for="chkArrCityRadius1">80 miles radius search</label>
+                &nbsp;</td>
+            </tr>
+            
+            <tr>
+              <td colspan="2"><input type="checkbox" name="chkFlexSearch1" id="chkFlexSearch1" value="true" />
+                <label for="chkFlexSearch1">Flexible Date , Lower Fare</label></td>
+            </tr>
+          </table>
+        </div>
+        <div id="pnlFlight2">
+ 
+        </div>
+        <div id="pnlFlight3" style="display:none">
+          <table>
+            <tr>
+              <td colspan="2" bgcolor="GainsBoro"><span class="label">Flight 3</span></td>
+            </tr>
+            <tr>
+              <td>From</td>
+              <td>To</td>
+            </tr>
+            <tr>
+              <td><input type="text" name="txtDepCity3" class="txtDepCity cls_autofill" autocomplete="off" id="txtDepCity3">
+              </td>
+              <td><input type="text" name="txtArrCity3" class="txtDepCity cls_autofill" autocomplete="off" id="txtArrCity3">
+              </td>
+            </tr>
+            <tr>
+              <td><input name="chkDepCityRadius3" type="checkbox" id="chkDepCityRadius3" value="true">
+                <label for="chkDepCityRadius3">80 miles radius search</label>
+                &nbsp;</td>
+              <td><input name="chkArrCityRadius3" type="checkbox" id="chkArrCityRadius3" value="true">
+                <label for="chkArrCityRadius3">80 miles radius search</label>
+                &nbsp;</td>
+            </tr>
+            <tr>
+              <td><script type="text/javascript">DateInput('txtDate3', true, 'MM/DD/YYYY', formatDate(dateAdd('d',14,Today), 'MM/dd/yyyy'))</script>
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td colspan="2"><input type="checkbox" name="chkFlexSearch3" id="chkFlexSearch3" value="true">
+                <label for="chkFlexSearch3">Flexible Date , Lower Fare</label></td>
+            </tr>
+          </table>
+        </div></td>
+    </tr>
+    
+ 
+ 
+ 
+    <tr>
+      <td align="right"><div align="center">
+          <input type="submit" value="Search" class="btnSearch" />
+        </div></td>
+    </tr>
+  </table>
+</form>

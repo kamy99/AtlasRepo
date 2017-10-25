@@ -1,0 +1,112 @@
+/* CSS Document */
+
+body{margin:0px; padding:0px; text-align: center; background-color:#EFEFED;}
+#container{margin:0 auto; text-align: center; width:1001px; background-color:#FFFFFF;}
+
+#header{width:1001px; float:left; margin-top:0px; height:108px;background-image:url(images/bg.jpg);background-repeat:no-repeat;}
+.tel{margin-left:0px; width:401px; height:88px; margin-top:0px; background-image:url(images/tel.jpg); padding-top:10px; padding-left:0px; background-repeat:no-repeat; float: right;}
+
+
+.menu{float:left; margin-left:0px; width:724px; margin-top:75px;}
+.contact{margin-left:0px; width:201px; height:34px; margin-top:73px; background-image:url(images/bg1.jpg); padding-top:10px; padding-left:0px; background-repeat:no-repeat; float: right;}
+.contactext{ font-family:Verdana; font-size:10px; color:#FFFFFF; text-decoration:none;}
+.contactext:hover{ font-family:Verdana; font-size:10px; color:#FFFFFF; text-decoration:underline;}
+
+#blank{ width:1001px;height:1px;}
+
+
+#middle{width:1001px; float:left; background-image:url(images/bg2.jpg); background-repeat:no-repeat; background-color:#FFFFFF;}
+#left{width:268px; float:left; margin-top:10px;}
+.engine{width:268px; float:left;}
+.searchtop{float:left; background-image:url(images/searchforlowestfares.gif); background-repeat:no-repeat; height:39px; width:268px; margin-top:8px; margin-left:5px;}
+.enginebg{ width:268px; background-image:url(images/bg3.gif); background-repeat:repeat-y; height:auto; float:left; width:268px; margin-left:5px;}
+.engine2{width:268px; float:left;}
+.enginetext{font-family:Verdana; font-size:11px; color:#474747}
+.enginefooter{ width:268px; height:35px; float:left; background-image:url(images/searchfooter.gif); background-repeat:no-repeat;}
+.booktravelers{width:75px; height:214px; float:left; background-image:url(images/bg4.gif); background-repeat:no-repeat;margin-left:15px;  margin-top:10px;}
+.customer{ width:244px; float:left; margin-top:10px; margin-left:15px;}
+
+
+
+#right{width:720px; margin-left:7px; margin-top:10px; float:left;}
+.right2{width:720px; float:left;}
+.rightleft{width:584px; height:245px;  float:left;}
+.traveleright{width:130px; float:left;}
+.traveler{ width:130px; margin-left:3px; float:right; font-family:"Times New Roman"; font-size:18px; color:#83b10c; margin-top:10px;}
+.line{width:130px; background-color:#83b10c; float:right; height:1px;}
+.tools{ width:110px; margin-left:3px; float:left; text-align:left;  font-family:Verdana; font-size:10px; color:#509ce5; margin-top:14px; margin-left:5px;}
+.tools2{height:10px; margin-top:15px; float:left; margin-left:5px;}
+.tooltext{font-family:Verdana; font-size:10px; color:#509ce5; text-decoration:none;}
+.tooltext:hover{font-family:Verdana; font-size:10px; color:#509ce5; text-decoration:none; margin-left:2px;}
+
+#rightmiddle{width:720px; float:left;}
+.rightmiddleleft{width:545px; height:217px; float:left; background-image:url(images/bghotdeal.jpg); background-repeat:no-repeat; background-position:top;}
+.hotdeal{width:290px; margin-left:230px; margin-top:45px; float:left;}
+.hotdeal2{width:290px;margin-top:5px; float:left;}
+.price{width:80px; float:left; text-align:center; color:#000000; font-family:Verdana; font-size:12px; }
+.from{width:95px; text-align:center; float:left; color:#FFFFFF; font-family:Verdana; font-size:12px; margin-left:10px; }
+.to{width:95px; float:left; text-align:center; color:#FFFFFF; font-family:Verdana; font-size:12px;  margin-left:10px; }
+.newsletter{width:173px; height:217px; margin-left:2px; float:left; background-image: url(images/newsletter.jpg); background-repeat:no-repeat;}
+.newsname{width:160px; margin-top:50px; float:left; margin-left:5px;}
+.name{width:40px; float:left; font-family:Verdana; font-size:12px; color:#0099FF; margin-top:3px;}
+.namebox{margin-left:5px; font-family:Verdana; font-size:12px; color:#0099FF; float:left; width:100px;}
+.newsmail{width:160px; margin-top:0px; float:left; margin-left:0px;}
+.mail{width:43px; float:left; font-family:Verdana; font-size:12px; color:#0099FF; text-align:left; margin-top:20px;}
+.mailbox{margin-left:2px; font-family:Verdana; font-size:12px; color:#0099FF; float:left; margin-top:15px; width:100px;}
+.options{width:173px; float:left; padding-top:24px; padding-bottom:30px;}
+.add{width:20px; float:left;}
+.add2{width:50px; float:left; font-family:Verdana; font-size:12px; color:#0099FF;}
+.remove{width:20px; float:left;}
+.remove2{width:80px; float:left; font-family:Verdana; font-size:12px; color:#0099FF;}
+.subscribe{width:173px; height:33px; text-align:center; }
+
+
+#rightbottom{ width:720px;float:left; margin-top:10px;}
+.family{width:244px; float:left; margin-left:12px;}
+.destination{ width:267px; float:left; margin-left:12px;}
+.hotel{ width:173px; float:left;  margin-left:12px;}
+
+#footer{width:1001px; background-image: url(images/bottombg.gif); background-repeat:repeat-x; float:left; height:29px;}
+.footer2{margin-left:10px; float:left; margin-top:12px; width:400px; text-align:left;}
+.footext{font-family:Verdana; font-size:11px; color:#666666; text-decoration:none;}
+.footext:hover{font-family:Verdana; font-size:11px; color:#666666; text-decoration:underline;}
+.footer3{margin-right:5px; float:right; margin-top:12px;  width:400px; float:right; text-align: right;}
+.footext2{font-family:Verdana; font-size:11px; color:#666666;}
+.wizie{font-family:Verdana; font-size:11px; color:#666666; font-weight:bold; text-decoration:none;}
+.wizie:hover{font-family:Verdana; font-size:11px; color:#509ce5; font-weight:bold; text-decoration:none;}
+#footer2{width:1001px; background-image: url(images/bottombg2.gif); background-repeat:repeat-x; float:left; height:25px;}
+.footer4{margin-left:10px; float:left; margin-top:3px; width:400px; text-align:left;}
+.footer5{margin-right:5px; float:right; margin-top:5px;  width:400px; float:right; text-align: right;}
+.logoss{width:140px; float:left; margin-top:8px; margin-left:40px; }
+.logoss2{width:140px; float:left; margin-top:3px; margin-left:40px; }
+
+#middlenew{width:1001px; margin:0 auto; text-align: center; background-color:#FFFFFF;  background-image:url(images/bg2.jpg); background-repeat:no-repeat;}
+
+.thank{width:1001px; margin:0 auto; text-align: center; background-color:#FFFFFF; height:320px; font-family:Verdana; font-size:24px; color:#509CE5; margin-top:250px; font-weight:bold;}
+
+.contacts{width:1001px; margin:0 auto; background-image:url(images/bg5.gif); background-position:left; background-repeat:no-repeat;  text-align: center; background-color:#FFFFFF; height:517px; font-family:Verdana; font-size:24px; color:#509CE5; margin-top:20px; font-weight:bold;}
+.contactsext{ width:800px; font-family:Verdana; color:#509CE5; font-size:16px; font-weight:bold; margin-top:16px; margin-left:200px; text-align:center; float:left;}
+.contactsext2{ width:800px; font-family:Verdana; color:#333333; font-size:14px; font-weight:bold; margin-top:5px; margin-left:200px; text-align:center; float:left;}
+.contactsext3{font-family:Verdana; color:#CC0000; font-size:14px; font-weight:bold; text-decoration:none;}
+.contactsext3:hover{font-family:Verdana; color:#CC0000; font-size:14px; font-weight:bold; text-decoration:underline;}
+
+
+
+.abouts{width:1001px; margin:0 auto; text-align: center; background-color:#FFFFFF; height:550px; font-family:Verdana;margin-top:20px;}
+.abouts2{ width:1001px; font-family:Verdana; color: #333333; font-size:11px; background-color:#FFFFFF;  font-weight:100; margin-top:16px; margin-left:50px; text-align:left; float:left;}
+.abouts5{ width:1001px; font-family:Verdana; color: #333333; font-size:11px; background-color:#FFFFFF;  font-weight:100; margin-top:16px; text-align:left; float:left;}
+.abouts6{ width:990px; font-family:Verdana; padding-left:10px; color: #333333; font-size:11px; background-color:#FFFFFF;  font-weight:100; margin-top:16px; text-align:left; float:left;}
+
+
+.service{width:800px; margin:0 auto; text-align: center; background-color:#FFFFFF; height:500px; margin-top:20px;}
+.services{ width:800px; font-family:Verdana; color: #333333; font-size:11px; font-weight:100; margin-top:16px; text-align:left; float:left;}
+.services1{ width:800px; float:left; margin-top:10px; margin-left:200px;}
+.box1{width:50px; float:left;}
+.box2{width:250px; float:left; margin-top:10px;}
+.box3{width:50px;  float:left; margin-left:5px;}
+.box4{width:250px; float:left;  margin-top:10px;}
+.servicesfont{font-family:Verdana; color: #333333; font-size:12px; font-weight:100; text-align:left; text-decoration:none;}
+.servicesfont:hover{font-family:Verdana; color: #333333; font-size:12px; font-weight:100; text-align:left; text-decoration:underline}
+#middleservice{width:900px; float:left; background-color:#FFFFFF;}
+.abouts3{width:1001px; margin:0 auto; text-align: center; background-color:#FFFFFF; height:800px; font-family:Verdana;margin-top:20px;}
+.abouts4{ width:990px; font-family:Verdana; color: #333333; font-size:11px; background-color:#FFFFFF;  font-weight:100; margin-top:16px; padding-left:10px; text-align:left; float:left;}

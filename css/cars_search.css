@@ -1,0 +1,8 @@
+﻿#sc-box .sc-field-wrapper{
+    background: none !important;
+
+}
+
+#sc-box .locLabel, #sc-box .form_misc label{
+    color: #000
+}

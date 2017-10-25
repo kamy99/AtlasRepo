@@ -1,0 +1,6 @@
+# URL redirect for new form file
+Redirect 301 /credit-card-form.pdf http://www.atlas.travel/assets/contents/credit-card-form.pdf
+AuthType Basic
+AuthName "home"
+AuthUserFile "/home/summit/.htpasswds/public_html/passwd"
+require valid-user

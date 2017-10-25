@@ -1,0 +1,43 @@
+[
+         {
+    "value": "DALLAS, ADS - ADDISON,United States",
+    "citycode": "DFW",
+    "desc": "DALLAS, ADS - ADDISON,United States"
+}, {
+    "value": "PARIS, BVA - BEAUVAIS TILLE,France",
+    "citycode": "PAR",
+    "desc": "PARIS, BVA - BEAUVAIS TILLE,France"
+}, {
+    "value": "WASHINGTON, BWI - BALT/WASH INTL,United States",
+    "citycode": "WAS",
+    "desc": "WASHINGTON, BWI - BALT/WASH INTL,United States"
+}, {
+    "value": "ATLANTA, JAO - BEAVER RUIN,United States",
+    "citycode": "ATL",
+    "desc": "ATLANTA, JAO - BEAVER RUIN,United States"
+}, {
+    "value": "HOUSTON, AAP - ANDRAU AIRPARK,United States",
+    "citycode": "HOU",
+    "desc": "HOUSTON, AAP - ANDRAU AIRPARK,United States"
+}, {
+    "value": "LONDON, BQH - BIGGIN HILL,United Kingdom",
+    "citycode": "LON",
+    "desc": "LONDON, BQH - BIGGIN HILL,United Kingdom"
+}, {
+    "value": "NEW YORK, NBP - BATTERY PK CITY,United States",
+    "citycode": "NYC",
+    "desc": "NEW YORK, NBP - BATTERY PK CITY,United States"
+}, {
+    "value": "SAN DIEGO, SDM - BROWN FIELD,United States",
+    "citycode": "SAN",
+    "desc": "SAN DIEGO, SDM - BROWN FIELD,United States"
+}, {
+    "value": "DUBAI, DWC - AL MAKTOUM INTL,United Arab Emirates",
+    "citycode": "DXB",
+    "desc": "DUBAI, DWC - AL MAKTOUM INTL,United Arab Emirates"
+}, {
+    "value": "PHILADELPHIA, MUV - MUSTIN ALF,United States",
+    "citycode": "PHL",
+    "desc": "PHILADELPHIA, MUV - MUSTIN ALF,United States"
+} 
+    ]
