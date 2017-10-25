@@ -51,7 +51,7 @@
       <div class="form-group">
                 <div class="content-checkin-data">
                     <i class="fa fa-plane infield"></i>
-                    <input type="text" name="txtDepCity1" class="txtDepCity cls_autofill form-control" value="<?php  if(isset($flight_arrival)){echo $flight_arrival;} ?>"  placeholder="Departure"  onChange="copyTextbox(this, document.getElementById('txtDepCity2'));" autocomplete="off" id="txtDepCity1">
+                    <input type="text" name="txtDepCity1" class="txtDepCity cls_autofill form-control" value="<?php  if(isset($flight_arrival)){echo $flight_arrival;} ?>" placeholder="From" autocomplete="off" id="txtDepCity1">
                 </div>
       </div>
     </div>
@@ -60,7 +60,7 @@
             <div class="form-group">
               <div class="content-checkin-data">
                   <i class="fa fa-plane infield"></i>
-                  <input type="text" name="txtArrCity1" class="txtDepCity cls_autofill form-control" value="<?php  if(isset($flight_departure)){echo $flight_departure;} ?>" defValue="Arrival"  placeholder="Arrival"  onChange="copyTextbox(this, document.getElementById('txtArrCity2'));" autocomplete="off" id="txtArrCity1">
+                  <input type="text" name="txtArrCity1" class="txtDepCity cls_autofill form-control" value="<?php  if(isset($flight_departure)){echo $flight_departure;} ?>" defValue="Arrival" placeholder="To" autocomplete="off" id="txtArrCity1">
               </div>
             </div>
     </div>
@@ -89,12 +89,12 @@
     </div>
 
     <div class="col-sm-6 rtn_date_1">
-               <!-- <div class="form-group return_panel">
+               <div class="form-group return_panel">
                 <div class="content-checkin-data">
                     <i class="fa fa-calendar infield"></i>
-                    <input name="txtDate2" type="text" id="checkout" value="" class="form-control checkout datepicker" placeholder="Return Date"/>
+                    <input name="txtDate2_placeHolder" type="text" id="checkout" value="" class="form-control checkout datepicker" placeholder="Return Date"/>
                 </div>
-              </div> -->
+              </div>
     </div>
 </div>
 <!-- eof row -->
@@ -107,7 +107,7 @@
                   <label for="checkin">From:</label>
                   <div class="content-checkin-data">
                       <i class="fa fa-plane infield"></i>
-                      <input id="txtDepCity2" name="txtDepCity2" class="txtDepCity cls_autofill form-control" value="" placeholder="Departure" onchange="copyTextbox(this, document.getElementById('txtDepCity1'));" autocomplete="off" type="text">
+                      <input id="txtDepCity2" name="txtDepCity2" class="txtDepCity cls_autofill form-control" value="" placeholder="From" autocomplete="off" type="text">
                   </div>
         </div>
       </div>
@@ -116,11 +116,11 @@
                 <label for="checkout">To:</label>
                 <div class="content-checkin-data">
                     <i class="fa fa-plane infield"></i>
-                    <input id="txtArrCity2" name="txtArrCity2" class="txtDepCity cls_autofill form-control" value="" defvalue="Arrival" placeholder="Arrival" onchange="copyTextbox(this, document.getElementById('txtArrCity1'));" autocomplete="off" type="text">
+                    <input id="txtArrCity2" name="txtArrCity2" class="txtDepCity cls_autofill form-control" value="" defvalue="Arrival" placeholder="To" autocomplete="off" type="text">
                 </div>
               </div>
       </div>
-      <div class="col-sm-2">
+      <div class="col-sm-4">
                 <div class="form-group">
                   <label for="checkin">Depart Date</label>
                   <div class="content-checkin-data">
@@ -137,7 +137,7 @@
                   <label for="checkin">From:</label>
                   <div class="content-checkin-data">
                       <i class="fa fa-plane infield"></i>
-                      <input id="txtDepCity3" name="txtDepCity3" class="txtDepCity cls_autofill form-control" value="" placeholder="Departure" onchange="copyTextbox(this, document.getElementById('txtArrCity'));" autocomplete="off" type="text">
+                      <input id="txtDepCity3" name="txtDepCity3" class="txtDepCity cls_autofill form-control" value="" placeholder="From" autocomplete="off" type="text">
                   </div>
         </div>
       </div>
@@ -146,11 +146,11 @@
                 <label for="checkout">To:</label>
                 <div class="content-checkin-data">
                     <i class="fa fa-plane infield"></i>
-                    <input id="txtArrCity3" name="txtArrCity3" class="txtDepCity cls_autofill form-control" value="" defvalue="Arrival" placeholder="Arrival" onchange="copyTextbox(this, document.getElementById('txtDepCity'));" autocomplete="off" type="text">
+                    <input id="txtArrCity3" name="txtArrCity3" class="txtDepCity cls_autofill form-control" value="" defvalue="Arrival" placeholder="To" autocomplete="off" type="text">
                 </div>
               </div>
       </div>
-      <div class="col-sm-2">
+      <div class="col-sm-4">
                 <div class="form-group">
                   <label for="checkin">Depart Date</label>
                   <div class="content-checkin-data">

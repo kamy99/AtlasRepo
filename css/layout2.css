@@ -113,7 +113,8 @@ a:hover {
 
 .btn,
 label {
-    font-size: 11px
+    font-size: 11px;
+    line-height: 2em;
 }
 
 .grid-container10 .col-md-3 ul li {
@@ -6014,22 +6015,19 @@ a.help-bt:hover {
 /* rededing search form */
 
 #flights-tab{
-  /*background-color: #eee;*/
   width: 100%;
-  /*border: 1px navy solid;*/
   padding: 10px;
   box-sizing: border-box;
   position: relative;
 }
 
 form#flights-tab input[type=text], #flights-tab select{
-  font-size: 16px
+  font-size: 13px
 }
 
 #passenger_box{
   border: 1px solid #ddd;
   border-radius: 5px;
-  font-size: 16px;
   margin-bottom: 10px;
   overflow: hidden;
 }
@@ -6619,13 +6617,7 @@ label span {
 
 
 #srch_frm_flght_multi{
-    /*display: none;*/
-    border: 1px red solid;
-}
-
-
-#srch_frm_flght_multi #checkin3, #srch_frm_flght_multi #checkin2{
-  width: 140px;
+    display: none;
 }
 
 .ui-datepicker {
@@ -6634,12 +6626,6 @@ label span {
 
 .flight_options_row{
     margin-top: 10px
-}
-
-.ui-datepicker-group-first .ui-datepicker-title{
-    /*background: none !important ;
-    font-size: 12px;
-    border: none !important;*/
 }
 
 .home_promo{
@@ -6670,7 +6656,6 @@ label span {
     letter-spacing: 1px  !important;
 }
 
-
 .ui-datepicker-group-first .ui-datepicker-title::before, .ui-datepicker-group-first .ui-datepicker-title::after
 {
     content: none !important;
@@ -6695,12 +6680,10 @@ label span {
     .force_height{
         height: 1015px !important;
     }
-
         .psngrs{
             float: left;
             width: 90px;
         }
-
         .psngrs-box{
             width: 100%;
             display: inline-block;
@@ -6738,18 +6721,12 @@ label span {
     z-index: 120 !important
 }
 
-.ui-datepicker .ui-datepicker-group-last .ui-datepicker-header,
-.ui-datepicker .ui-datepicker-header{
-    /*padding: 5px !important*/
-}
+
 
 .ui-datepicker .ui-datepicker-month, .ui-datepicker .ui-datepicker-year{
     font-size: 12px !important
 }
 
-.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span{
-    /*top: -1px !important*/
-}
 
 .newsletter_error{
     border: 1px red solid !important;
@@ -6784,7 +6761,6 @@ label span {
 .newsletter_signup_box .ctct-form-errorMessage{
     color: red
 }
-
 
 .newsletter_signup_box .ctct-custom-form .ctct-button {
     background-color: #0078c1 !important;
@@ -7175,7 +7151,12 @@ ul.promo_list{
 
   #reservation-form{
       padding: 0px;
-      height: 740px;
+      /*height: 100vh;*/
+      overflow: hidden;
+      height: 1090px;
+      background-image: none;
+      background-color: #fff;
+
   }
 
 

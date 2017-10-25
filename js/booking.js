@@ -8,27 +8,15 @@ $(".rdbRoundTrip").on('click', function(){
 });
 
 $(".rdbOneWay").on('click', function(){
-        $("#srch_frm_flght_single").show();
-        //$("#srch_frm_flght_multi, #srch_frm_flght_oneway, .rtn_date_1").hide();
-        $(".rtn_date_1, #srch_frm_flght_multi").hide();
-        $("#checkout").val('');
-    // $( "#srch_frm_flght_multi" ).empty();
-
+  $("#srch_frm_flght_single").show();
+  $(".rtn_date_1, #srch_frm_flght_multi").hide();
+  $("#checkout").val('');
 });
 
 $("#rdbMultiCity").off().on('click', function(){ // needed to unbind/off the click event, as for some reason it was being triggered twice.
-
-
-    $("#srch_frm_flght_single, .rtn_date_1").hide();
+    $(".rtn_date_1").hide();
     $("#srch_frm_flght_oneway, #srch_frm_flght_multi").show();
-    $(".rtn_date_1, #srch_frm_flght_multi").show();
-
-// inject multicity rows
-   //var multi_city_fields ="<div class=\"row\"> <div class=\"col-sm-4\"> <div class=\"form-group\"> <label for=\"checkin\">From:</label> <div class=\"content-checkin-data\"> <i class=\"fa fa-plane infield\"></i> <input type=\"text\" id=\"txtDepCity2\" name=\"txtDepCity2\" class=\"txtDepCity cls_autofill form-control\" value=\"\" placeholder=\"Departure\" onChange=\"copyTextbox(this, document.getElementById('txtArrCity'));\" autocomplete=\"off\" > </div></div></div><div class=\"col-sm-4\"> <div class=\"form-group\"> <label for=\"checkout\">To:</label> <div class=\"content-checkin-data\"> <i class=\"fa fa-plane infield\"></i> <input type=\"text\" id=\"txtArrCity2\" name=\"txtArrCity2\" class=\"txtDepCity cls_autofill form-control\" value=\"\" defValue=\"Arrival\" placeholder=\"Arrival\" onChange=\"copyTextbox(this, document.getElementById('txtDepCity'));\" autocomplete=\"off\"> </div></div></div><div class=\"col-sm-2\"> <div class=\"form-group\"> <label for=\"checkin\">Depart Date</label> <div class=\"content-checkin-data\"> <i class=\"fa fa-calendar infield\"></i> <input type=\"text\" id=\"checkin2\" name=\"txtDate2\" value=\"\" class=\"form-control checkin\" placeholder=\"Dep. Date\"/> </div></div></div></div><div class=\"row\"> <div class=\"col-sm-4\"> <div class=\"form-group\"> <label for=\"checkin\">From:</label> <div class=\"content-checkin-data\"> <i class=\"fa fa-plane infield\"></i> <input type=\"text\" id=\"txtDepCity3\" name=\"txtDepCity3\" class=\"txtDepCity cls_autofill form-control\" value=\"\" placeholder=\"Departure\" onChange=\"copyTextbox(this, document.getElementById('txtArrCity'));\" autocomplete=\"off\" > </div></div></div><div class=\"col-sm-4\"> <div class=\"form-group\"> <label for=\"checkout\">To:</label> <div class=\"content-checkin-data\"> <i class=\"fa fa-plane infield\"></i> <input type=\"text\" id=\"txtArrCity3\" name=\"txtArrCity3\" class=\"txtDepCity cls_autofill form-control\" value=\"\" defValue=\"Arrival\" placeholder=\"Arrival\" onChange=\"copyTextbox(this, document.getElementById('txtDepCity'));\" autocomplete=\"off\"> </div></div></div><div class=\"col-sm-2\"> <div class=\"form-group\"> <label for=\"checkin\">Depart Date</label> <div class=\"content-checkin-data\"> <i class=\"fa fa-calendar infield\"></i> <input type=\"text\" id=\"checkin3\" name=\"txtDate3\" value=\"\" class=\"form-control checkin\" placeholder=\"Dep. Date\"/> </div></div></div></div>";
-   // $('#srch_frm_flght_multi').append(multi_city_fields);
-
-
-
+    $("#srch_frm_flght_multi").show();
 });
 
 // Calendar arrow override, due to cars css issue
@@ -64,9 +52,9 @@ $("#checkin3").on('change' , function(){
   //  $("#checkout").val( $(this).val() );
 });
 
-// $("#checkin3").on('change' , function(){
-//     $("#checkout").val( $(this).val() );
-// });
+$("#checkout").on('change' , function(){
+    $("#checkin2").val( $(this).val() );
+});
 
 
 $("#flights-tab #booking_search_btn").on('click', function(event){
@@ -74,13 +62,12 @@ $("#flights-tab #booking_search_btn").on('click', function(event){
 
         if ( $("#txtDepCity1").val() == "" ){
             $("#txtDepCity1").addClass('form_error');
-
         }
         else{
             $("#txtDepCity1").removeClass('form_error');
         }
 
-         if ($("#txtArrCity1").val() == ""){
+        if ($("#txtArrCity1").val() == ""){
             $("#txtArrCity1").addClass('form_error');
         }
         else{
@@ -121,9 +108,9 @@ $("#flights-tab #booking_search_btn").on('click', function(event){
             if (  ($("#txtDepCity1").val() != "")  && ($("#txtArrCity1").val() != "") && ($("#checkin").val() != "") && ($("#checkout").val() != "")  && ($("#txtDepCity2").val() != "" ) && ($("#txtArrCity2").val() != "" )  )
             {
                 $("#flights-tab #booking_search_btn span").addClass('hourglass');
-              //  $('#flights-tab').submit();
+                $('#flights-tab').submit();
 
-                console.log( $( '#flights-tab' ).serializeArray() );
+              //  console.log( $( '#flights-tab' ).serializeArray() );
                 //event.preventDefault();
 
 
@@ -139,6 +126,7 @@ $("#flights-tab #booking_search_btn").on('click', function(event){
         }
 
         else if ($('input[name=TripType]:checked').val() == 'rdbMultiCity' ) {
+
             if (  ($("#txtDepCity1").val() != "")  && ($("#txtArrCity1").val() != "") && ($("#checkin").val() != "")     )
             {
                 $("#flights-tab #booking_search_btn span").addClass('hourglass');
