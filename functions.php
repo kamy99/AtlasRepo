@@ -48,7 +48,7 @@
     <!-- <link href="/css/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" type="text/css" /> -->
     <link href="/css/animate.css" rel="stylesheet" type="text/css" />
     <link href="/css/travel-mega-menu.css" rel="stylesheet" type="text/css" />
-    <link href="/css/layout2.css" rel="stylesheet" type="text/css" />
+    <link href="/css/layout2.css?ver=<?php echo date('l-jS-m-Y-h:i:s-A');?>" rel="stylesheet" type="text/css" />
     <link href="/css/responsive.css" rel="stylesheet" type="text/css" />
     <link href="/css/jquery-ui.min.css" rel="stylesheet" type="text/css" />
 
@@ -326,8 +326,8 @@
     });
  </script>
 
- <script type="text/javascript" src="/js/cuppa/lib/moment.js"></script>
- <script type="text/javascript" src="/js/cuppa/cuppa-calendar.js"></script>
+ <!-- <script type="text/javascript" src="/js/cuppa/lib/moment.js"></script>
+ <script type="text/javascript" src="/js/cuppa/cuppa-calendar.js"></script> -->
 
 <?php // Secondary Page specific Js file
 if ( isset($jsFileSecond) && $jsFileSecond != ''){  ?>

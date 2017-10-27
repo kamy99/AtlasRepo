@@ -41,8 +41,8 @@
     <div id="flight_form_slector" class="row">
       <div class="col-sm-12">
         <label class="radio-inline srch_rd_btns"><input type="radio" name="TripType" value="rdbRoundTrip" id="rdbRoundTrip"  class="rdbRoundTrip" onClick="chgTripType(this.value);" checked>Round-Trip</label>
-        <label class="radio-inline  srch_rd_btns"><input type="radio" name="TripType" value="rdbOneWay" id="rdbOneWay" class="rdbOneWay" onClick="chgTripType(this.value);">One-Way</label>
-        <label class="radio-inline  srch_rd_btns"><input type="radio" name="TripType" value="rdbMultiCity" id="rdbMultiCity" class="rdbMultiCity" onClick="chgTripType(this.value);">Multi-City</label>
+        <label class="radio-inline srch_rd_btns"><input type="radio" name="TripType" value="rdbOneWay" id="rdbOneWay" class="rdbOneWay" onClick="chgTripType(this.value);">One-Way</label>
+        <label class="radio-inline srch_rd_btns"><input type="radio" name="TripType" value="rdbMultiCity" id="rdbMultiCity" class="rdbMultiCity" onClick="chgTripType(this.value);">Multi-City</label>
       </div>
     </div>
 <!-- row start -->

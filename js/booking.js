@@ -17,6 +17,7 @@ $("#rdbMultiCity").off().on('click', function(){ // needed to unbind/off the cli
     $(".rtn_date_1").hide();
     $("#srch_frm_flght_oneway, #srch_frm_flght_multi").show();
     $("#srch_frm_flght_multi").show();
+    $("#txtDepCity2, #txtArrCity2").val('');
 });
 
 // Calendar arrow override, due to cars css issue

@@ -108,7 +108,7 @@ $a=array("1","2","3"); echo array_rand(array_flip($a), 1);?>">
           <div class="search_box_wrapper">
 
           <ul class="nav nav-tabs">
-            <li <?php if ( ($search_box == 'flights') || ($search_box == 'home') ){ ?>class="active"<?php } else {?> class=""<?php }?>><a data-toggle="tab" href="#home" class="ga_event" data-category="Search_tabs" data-action="Click" data-label="Flights Tab"><i class="fa fa-plane">&nbsp;</i>Flights</a></li>
+            <li <?php if ( ($search_box == 'flights') || ($search_box == 'home') ){ ?>class="active"<?php } else {?> class=""<?php }?>><a data-toggle="tab_" href="flights.php" class="ga_event" data-category="Search_tabs" data-action="Click" data-label="Flights Tab"><i class="fa fa-plane">&nbsp;</i>Flights</a></li>
             <li <?php if ($search_box == 'hotels') { ?>class="active"<?php } else {?> <?php }?>><a data-toggle="tab__" href="hotels.php" class="ga_event" data-category="Search_tabs" data-action="Click" data-label="Hotels Tab"><i class="fa fa-hotel">&nbsp;</i>Hotels</a></li>
             <li <?php if ($search_box == 'packages') { ?>class="active"<?php } else {?> <?php }?>><a data-toggle="tab__" href="vacations.php" class="ga_event" data-category="Search_tabs" data-action="Click" data-label="Vacations Tab"><i class="fa fa-suitcase">&nbsp;</i>Vacations</a></li>
             <li <?php if ($search_box == 'cars') { ?>class="active"<?php } else {?> <?php }?>><a id="cars_tab" data-toggle="tab__" href="cars.php" class="ga_event" data-category="Search_tabs" data-action="Click" data-label="Cars Tab"><i class="fa fa-car">&nbsp;</i>Cars</a></li>
@@ -160,7 +160,7 @@ $a=array("1","2","3"); echo array_rand(array_flip($a), 1);?>">
             <a class="home_business_promo" href="/promotions/business_class.php" title="" data-category="Search_Box" data-action="Click" data-label="Side Promotions" >
             </a>
 
-      
+
           <?php }
         }
 
